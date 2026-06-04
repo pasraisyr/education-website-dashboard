@@ -233,7 +233,7 @@ export const SellerLandingPage: React.FC<SellerLandingPageProps> = ({ onLivePrev
               Admin Control Center
             </Title>
             <Text size="sm" style={{ color: '#e2e8f0', lineHeight: '1.6', fontWeight: 400 }}>
-              Organize students, manage teacher payroll rosters, establish classrooms, and assign courses. Monitor daily student attendance analytics and clock-in logs.
+              Organize student profiles, manage teacher schedules, allocate classrooms, and assign courses. Monitor daily student attendance analytics and teacher clock-in logs.
             </Text>
           </Card>
 
