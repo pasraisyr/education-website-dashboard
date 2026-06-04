@@ -140,12 +140,12 @@ export const SellerLandingPage: React.FC<SellerLandingPageProps> = ({ onLivePrev
               inherit
               fw={900}
             >
-              School Portal & Web App
+              Tuition Center Portal & Web App
             </Text>
           </Title>
 
           <Text size="lg" style={{ maxWidth: '650px', color: '#94a3b8', lineHeight: '1.7' }}>
-            Empower your tuition center or academy. Get a professional public-facing landing page combined with role-based administrative and tutor dashboards.
+            Empower your academy. Get a custom brand landing page combined with role-based administrative dashboards, teacher scheduling, and attendance logs.
           </Text>
 
           <Group gap="md" mt="md">
