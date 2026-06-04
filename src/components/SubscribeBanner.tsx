@@ -191,9 +191,6 @@ export const SubscribeBanner: React.FC<SubscribeBannerProps> = ({
           </form>
         )}
 
-        <Text size="10px" style={{ opacity: 0.8 }}>
-          🔌 Google Sheets / AppSheet Ready API Integration
-        </Text>
       </Stack>
     </Card>
   );

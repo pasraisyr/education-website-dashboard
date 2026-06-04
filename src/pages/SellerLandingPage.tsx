@@ -7,6 +7,7 @@ import {
   IconUsers,
   IconLayoutDashboard
 } from '@tabler/icons-react';
+import { SubscribeBanner } from '../components/SubscribeBanner';
 
 interface SellerLandingPageProps {
   onLivePreviewClick: () => void;
@@ -114,7 +115,13 @@ export const SellerLandingPage: React.FC<SellerLandingPageProps> = ({ onLivePrev
           </Group>
         </Container>
       </Box>
-
+      <Box style={{ maxWidth: '900px', margin: '0 auto' }}>
+          <SubscribeBanner 
+            title="Request a Custom Dashboard Demo" 
+            subtitle="Interested in setting up a branded school portal or custom academy dashboards? Fill in your details below and our team will get back to you shortly." 
+          />
+      </Box>
+        
       {/* Hero Header Section */}
       <Container size="lg" style={{ position: 'relative', zIndex: 1, padding: '100px 0 60px 0' }}>
         <Stack align="center" gap="xl" style={{ textAlign: 'center' }} mb={80}>
@@ -280,7 +287,8 @@ export const SellerLandingPage: React.FC<SellerLandingPageProps> = ({ onLivePrev
             border: 'none',
             backdropFilter: 'blur(20px)',
             maxWidth: '900px',
-            margin: '0 auto'
+            margin: '0 auto',
+            marginBottom: '40px'
           }}
         >
           <Stack align="center" gap="md">
